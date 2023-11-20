@@ -1,0 +1,85 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.main-container {
+  background-image: linear-gradient(to left, #cffcf1, #ffffff);
+  height: 100vh;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 56px;
+}
+.second-container {
+  width: 80%;
+  display: flex;
+  padding: 34px;
+  margin-top: 95px;
+}
+.image-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 33vh;
+  background-size: cover;
+
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para {
+  font-size: 34px;
+  text-align: center;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+.start {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.start-image {
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  outline: none;
+  border-color: none;
+  border: 0px;
+}
+.pause-button {
+  display: flex;
+}
+.setTimer {
+  padding-top: 50px;
+}
+.setTimerDiv {
+  display: flex;
+}
+.button {
+  background-color: transparent;
+  outline: none;
+  border-color: none;
+  border: 0px;
+  font-size: 45px;
+}
+.SetTimerPara {
+  background-image: linear-gradient(#cffcf1, #00d9f5);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 55px;
+  padding-right: 55px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
